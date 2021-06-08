@@ -1,0 +1,62 @@
+site_name: wiki.irsigler.dev
+site_description: 'Personal Notes of Dennis Irsigler.'
+site_author: 'dirsigler'
+site_url: https://wiki.irsigler.cloud
+docs_dir: './obsidian'
+repo_url: 'https://github.com/relgisri/wiki'
+repo_name: 'relgisri/wiki'
+edit_uri: ""
+
+# Fail to build if we have broken links
+strict: false
+
+# Copyright
+copyright: 'Copyright &copy; 2021 Dennis Irsigler'
+
+# Plugins
+plugins:
+  - search
+  - autolinks
+  - markmap
+  - minify:
+      minify_html: true
+      minify_js: true
+      htmlmin_opts:
+          remove_comments: true
+  - git-revision-date
+
+markdown_extensions:
+  - meta
+
+theme:
+  name: material
+  language: en
+  favicon: images/favicon.png
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  feature:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+  font:
+    text: 'Roboto'
+    code: 'Cascadia Code PL'
+
+extra_css:
+  - 'stylesheets/extra.css'
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/relgisri
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/0xE02B7

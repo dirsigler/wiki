@@ -1,0 +1,57 @@
+/* https://github.com/squidfunk/mkdocs-material/blob/master/src/assets/stylesheets/main/_colors.scss */
+:root
+{
+    --dark0:  #2e3440;
+    --dark1:  #3b4252;
+    --dark2:  #434c5e;
+    --dark3:  #4c566a;
+
+    --light0: #d8dee9;
+    --light1: #e5e9f0;
+    --light2: #eceff4;
+    --light3: #ffffff;
+
+    --frost0: #8fbcbb;
+    --frost1: #88c0d0;
+    --frost2: #81a1c1;
+    --frost3: #5e81ac;
+
+    --red:    #bf616a;
+    --orange: #d08770;
+    --yellow: #ebcb8b;
+    --green:  #a3be8c;
+    --purple: #b48ead;
+
+}
+
+.md-header {
+    background-color: var(--frost3);
+}
+
+.md-main {
+    background-color: var(--dark0);
+}
+
+.md-nav__title {
+    color: var(--light3)
+}
+
+.md-footer {
+    background-color: var(--dark2);
+}
+
+.md-footer-meta {
+    background-color: var(--dark1);
+}
+
+.md-nav__link {
+    color: var(--light2)
+}
+
+.md-nav__item .md-nav__link--active {
+    color: var(--yellow)
+}
+
+.md-footer-copyright__hightlight {
+    color: var(--light2)
+}
