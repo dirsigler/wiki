@@ -2,9 +2,9 @@ site_name: wiki.irsigler.cloud
 site_description: 'Personal Notes of Dennis Irsigler.'
 site_author: 'dirsigler'
 site_url: https://wiki.irsigler.cloud
-docs_dir: './obsidian'
-repo_url: 'https://github.com/relgisri/wiki'
-repo_name: 'relgisri/wiki'
+docs_dir: './content'
+repo_url: 'https://github.com/dirsigler/wiki'
+repo_name: 'dirsigler/wiki'
 edit_uri: ""
 
 # Fail to build if we have broken links
