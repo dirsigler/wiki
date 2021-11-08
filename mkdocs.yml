@@ -1,8 +1,7 @@
-site_name: wiki.irsigler.cloud
+site_name: wiki.irsigler.dev
 site_description: 'Personal Notes of Dennis Irsigler.'
 site_author: 'Dennis Irsigler'
-site_url: https://wiki.irsigler.cloud
-docs_dir: './content'
+site_url: https://wiki.irsigler.dev
 repo_url: 'https://github.com/dirsigler/wiki'
 repo_name: 'dirsigler/wiki'
 edit_uri: ""
@@ -30,19 +29,14 @@ markdown_extensions:
 
 theme:
   name: material
+  icon:
+    logo: material/library
+    repo: fontawesome/brands/git-alt
   language: en
   favicon: images/favicon.png
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
+    primary: blue
+    accent: indigo
   feature:
     - navigation.instant
     - navigation.tabs
@@ -56,6 +50,8 @@ extra_css:
 
 extra:
   social:
+    - icon: fontawesome/solid/globe-europe
+      link: https://irsigler.dev
     - icon: fontawesome/brands/github
       link: https://github.com/dirsigler
     - icon: fontawesome/brands/twitter
