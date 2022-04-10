@@ -1,7 +1,7 @@
 site_name: Wiki
 site_description: Personal Notes of Dennis Irsigler.
 site_author: Dennis Irsigler
-site_url: https://wiki.irsigler.dev
+site_url: https://wiki.irsigler.cloud
 repo_url: https://github.com/dirsigler/wiki
 repo_name: "dirsigler/wiki"
 edit_uri: ""
@@ -10,7 +10,7 @@ edit_uri: ""
 strict: false
 
 # Copyright
-copyright: 'Copyright &copy; 2021 Dennis Irsigler'
+copyright: 'Copyright &copy; 2022 Dennis Irsigler'
 
 theme:
   name: material
@@ -67,8 +67,9 @@ extra_css:
   - 'stylesheets/extra.css'
 
 extra:
+  generator: true
   social:
-    - icon: fontawesome/solid/globe-europe
+    - icon: fontawesome/solid/earth-europe
       link: https://irsigler.dev
     - icon: fontawesome/brands/github
       link: https://github.com/dirsigler
@@ -77,3 +78,5 @@ extra:
 
 nav:
   - Home: index.md
+  - Docs:
+      - Overview: docs/index.md
