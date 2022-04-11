@@ -1,0 +1,8 @@
+.md-header,.md-footer-nav {
+    background: rgb(46,52,65);
+    background: linear-gradient(90deg, rgba(46,52,65,1) 55%, rgba(37,41,52,1) 75%);
+}
+
+.logos {
+    text-align: center;
+}

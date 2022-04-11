@@ -1,0 +1,4 @@
+Contact: mailto:dennis@irsigler.dev
+Expires: 2023-08-01T11:12:00.000Z
+Preferred-Languages: en, de
+Canonical: https://wiki.irsigler.cloud/security.txt
