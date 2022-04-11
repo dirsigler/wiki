@@ -1,5 +1,6 @@
 .md-header,.md-footer-nav {
-    background-image: linear-gradient(45deg, rgb(53, 112, 227) 0%, rgb(53, 112, 227) 24%, rgb(42, 125, 227) 53%, rgb(27, 141, 226) 78%, rgb(8, 162, 225) 100%);
+    background: rgb(46,52,65);
+    background: linear-gradient(90deg, rgba(46,52,65,1) 55%, rgba(37,41,52,1) 75%);
 }
 
 .logos {

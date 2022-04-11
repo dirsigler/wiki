@@ -28,6 +28,7 @@ theme:
     - navigation.top
     - search.highlight
     - header.autohide
+    - toc.integrate
   font:
     text: 'Roboto'
     code: 'Cascadia Code PL'
@@ -37,6 +38,7 @@ plugins:
   - search
   - autolinks
   - markmap
+  - tags
   - minify:
       minify_html: true
       minify_js: true
@@ -77,6 +79,13 @@ extra:
       link: https://twitter.com/dirsigler
 
 nav:
-  - Home: index.md
-  - Docs:
-      - Overview: docs/index.md
+  - Home: 'index.md'
+  - Kubernetes:
+    - Workloads:
+      - Deployment: 'kubernetes/workload/deployment.md'
+      - Statefulset: 'kubernetes/workload/statefulset.md'
+    - Volumes: 'kubernetes/volumes.md'
+    - VolumeClaim: 'kubernetes/volumeclaim.md'
+  - Databases:
+    - MySQL: 'dbs/mysql.md'
+    - MongoDB: 'dbs/mongodb.md'
